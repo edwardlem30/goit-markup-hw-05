@@ -496,11 +496,39 @@ h3 {margin-bottom: 10px;}
     background-color: var(--bcg-color);
 }
 
+/* Чем мы занимаемся */
+.img-wrapper 
+{
+    position: relative;
+    outline: 2px solid red;
+}
+
 .work-img 
 {
-    
     display: block;
 }
+
+.desc 
+{
+    display: inline-block;
+    margin: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 100%;
+    
+    position:absolute;
+    bottom: 0;
+    left: 0;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    
+    background: rgba(47, 48, 58, 0.8);
+    color: #FFFFFF;
+}
+
 
 .header-list .header-item + .header-item 
 {
