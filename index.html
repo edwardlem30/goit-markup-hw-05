@@ -11,6 +11,13 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 		<link rel="stylesheet" href="./styles/styles.css" />
 	</head>
@@ -35,25 +42,25 @@
 							<a class="header-link contact" href="">Контакты</a>
 						</li>
 					</ul>
-					<ul class="list-contact">
-						<li class="contact-link">
-							<a class="link" href="mailto:info@devstudio.com">
-								<svg class="icon" width="16" height="12">
-									<use href="./images/icons.svg#icon-mail"></use>
-								</svg>
-								info@devstudio.com
-							</a>
-						</li>
-						<li class="contact-tel">
-							<a class="link" href="tel:+380961111111">
-								<svg class="icon" width="10" height="16">
-									<use href="./images/icons.svg#icon-tell"></use>
-								</svg>
-								+38 096 111 11 11
-							</a>
-						</li>
-					</ul>
 				</nav>
+				<ul class="list-contact list">
+					<li class="contact-link">
+						<a class="link" href="mailto:info@devstudio.com">
+							<svg class="icon" width="16" height="12">
+								<use href="./images/icons.svg#icon-mail"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li class="contact-tel">
+						<a class="link" href="tel:+380961111111">
+							<svg class="icon" width="10" height="16">
+								<use href="./images/icons.svg#icon-tell"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
 			</div>
 		</header>
 		<!-- Main -->
@@ -150,7 +157,7 @@
 			</section>
 
 			<!-- Command -->
-			<section class="section-command">
+			<section class="section-command section">
 				<div class="container">
 					<h2 class="command-title">
 						Наша
@@ -162,7 +169,7 @@
 							<div class="command">
 								<h3 class="subtitle">Игорь Демьяненко</h3>
 								<p class="text" lang="en">Product Designer</p>
-								<ul class="social-media-list">
+								<ul class="social-media-list list">
 									<li class="social-media-item">
 										<a
 											class="social-media-link"
@@ -217,7 +224,7 @@
 							<div class="command">
 								<h3 class="subtitle">Ольга Репина</h3>
 								<p class="text" lang="en">Frontend Developer</p>
-								<ul class="social-media-list">
+								<ul class="social-media-list list">
 									<li class="social-media-item">
 										<a
 											class="social-media-link"
@@ -272,7 +279,7 @@
 							<div class="command">
 								<h3 class="subtitle">Николай Тарасов</h3>
 								<p class="text" lang="en">Marketing</p>
-								<ul class="social-media-list">
+								<ul class="social-media-list list">
 									<li class="social-media-item">
 										<a
 											class="social-media-link"
@@ -327,7 +334,7 @@
 							<div class="command">
 								<h3 class="subtitle">Михаил Ермаков</h3>
 								<p class="text" lang="en">UI Designer</p>
-								<ul class="social-media-list">
+								<ul class="social-media-list list">
 									<li class="social-media-item">
 										<a
 											class="social-media-link"
@@ -437,7 +444,7 @@
 
 		<!-- Footer -->
 		<footer class="footer">
-			<div class="container list-item">
+			<div class="container footer-flex">
 				<div class="logo-contact">
 					<a class="logo" href="./index.html">
 						<span class="logo-cl animate__animated animate__backInDown">Web</span>
@@ -467,7 +474,7 @@
 				</div>
 				<div class="visit">
 					<p class="visit-join">присоединяйтесь</p>
-					<ul class="social-media-list">
+					<ul class="social-media-list list">
 						<li class="social-media-item">
 							<a
 								class="social-media-link-visit"
