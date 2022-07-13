@@ -237,7 +237,8 @@ h3 {margin-bottom: 10px;}
 .link-map
 {
     display: block;
-    
+    margin-top: 20px;
+
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -771,7 +772,7 @@ h3 {margin-bottom: 10px;}
     border-radius: 4px;
     border: none;
     text-transform: none;
-    transition-property: color, border, box-shadow;
+    transition-property: color, background-color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -787,11 +788,6 @@ h3 {margin-bottom: 10px;}
 
 .card-item {
     width: 370px; 
-}
-
-.card-item:last-child
-{
-    padding-bottom: 94px;
 }
 
 .card-art {
